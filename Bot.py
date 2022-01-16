@@ -1,20 +1,10 @@
-from os import system
-system("pip install BotAmino")
-system("pip install dick.py")
-system("pip install colorama")
-system("pip install pyfiglet")
 import BotAmino
 from BotAmino import BotAmino, Parameters
 import urllib
 import os
-#from keep_alive import keep_alive
 import time
-#keep_alive()
 import sys
-#def restart_program():
-    #python = sys.executable
-    #os.execl(python, python, * sys.argv)
-#time.sleep(6)
+
 print("wait...")
 client = BotAmino("1fmlx94zixce@yoggm.com", "aaaa5555", deviceId = "3236DCDA9D56E3B5F51F00770B45DD2275A7615F721A2FC859617C39A80B7BE06DA73D7FC6DDDCF1E6")
 
@@ -67,6 +57,5 @@ def Coins(data):
 
 client.launch()
 print("ready")
-#restart_program()
 
 
