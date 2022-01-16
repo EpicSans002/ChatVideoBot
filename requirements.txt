@@ -1,0 +1,4 @@
+BotAmino
+dick.py
+pyfiglet
+colorama
