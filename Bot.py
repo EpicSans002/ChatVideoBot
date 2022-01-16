@@ -45,16 +45,7 @@ def bg(data):
       urllib.request.urlretrieve(image, filename)
       with open(filename, 'rb') as fp:
         data.subClient.send_message(chatId=data.chatId, file=fp, fileType="image")
-
-@client.command()
-def wallet(data):
-     coins = data.subClient.get_wallet_amount()
-     print(coins)
-
-@client.command()
-def Coins(data):
-  
-
+	
 client.launch()
 print("ready")
 
