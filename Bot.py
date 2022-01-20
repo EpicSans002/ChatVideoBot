@@ -6,7 +6,7 @@ import time
 import sys
 
 print("wait...")
-client = BotAmino("1fmlx94zixce@yoggm.com", "aaaa5555", deviceId = "3236DCDA9D56E3B5F51F00770B45DD2275A7615F721A2FC859617C39A80B7BE06DA73D7FC6DDDCF1E6")
+client = BotAmino("jwevri9h@xojxe.com", "aaaa5555", deviceId = "170faa37a93d67616b2297a4d2a485bccfae8fac97a9572736d58665356a9b1f7ff978c88c4f92c706")
 
 
 
