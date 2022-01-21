@@ -1,4 +1,4 @@
 BotAmino
-dick.py
+Dick.py
 pyfiglet
 colorama
