@@ -6,7 +6,7 @@ import time
 import sys
 
 print("wait...")
-client = BotAmino("jwevri9h@xojxe.com", "aaaa5555", deviceId = "170faa37a93d67616b2297a4d2a485bccfae8fac97a9572736d58665356a9b1f7ff978c88c4f92c706")
+client = BotAmino("jwevri9h@xojxe.com", "aaaa5555", deviceId = ("329F46F833E61F4635BB2519139256FC10DA6F359C6970CE01F54F4B9064674A0509B9733C650C4D56")
 
 
 
@@ -14,7 +14,7 @@ client.prefix = "/"  # set the prefix to /
 client.wait = 4  # wait 4 sec before doing a new command
 
 comid= 165549708
-chatid= 'b240367a-8a5a-4d93-aaa8-dd40fe42c711'
+
 
 client.add_community(comid)
 subclient = client.get_community(comid)
