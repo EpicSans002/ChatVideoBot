@@ -6,8 +6,7 @@ import time
 import sys
 
 print("wait...")
-client = BotAmino("jwevri9h@xojxe.com", "aaaa5555", deviceId = ("329F46F833E61F4635BB2519139256FC10DA6F359C6970CE01F54F4B9064674A0509B9733C650C4D56")
-
+client = BotAmino("jwevri9h@xojxe.com", "aaaa5555", deviceId = "329F46F833E61F4635BB2519139256FC10DA6F359C6970CE01F54F4B9064674A0509B9733C650C4D56")
 
 
 client.prefix = "/"  # set the prefix to /
